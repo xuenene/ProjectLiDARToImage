@@ -6,14 +6,14 @@ A tool to project LiDAR point cloud to image, facilitating to evaluate the calib
 - PCL
 
 ## Compile
-mkdir build
-cd build
-cmake ..
-make -j
+- mkdir build
+- cd build
+- cmake ..
+- make -j
 
 ## Usage
-usage: ./ProjectLiDARToImage imgPathName pcdPathName calib_cam_to_cam.txt calib_cam_to_velo.txt outPathName
-eg:  ./ProjectLiDARToImage ../example/001.png ../example/001.pcd ..example/calib_cam_to_cam.txt ..example/calib_cam_to_velo.txt ..example/Project_001.png
+- usage: ./ProjectLiDARToImage imgPathName pcdPathName calib_cam_to_cam.txt calib_cam_to_velo.txt outPathName
+- eg:  ./ProjectLiDARToImage ../example/001.png ../example/001.pcd ..example/calib_cam_to_cam.txt ..example/calib_cam_to_velo.txt ..example/Project_001.png
 
 ## Notice
 - "calib_cam_to_cam.txt" and "calib_cam_to_velo.txt" should be given in KITTI format.
